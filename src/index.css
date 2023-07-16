@@ -1,0 +1,75 @@
+
+
+
+
+
+
+button.close{
+  margin-left: 80%;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+
+.steps{
+
+  background-color: rgb(236, 235, 235);
+  width: 50%;
+  padding: 50px 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+  
+   
+}
+.numbers{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+
+.numbers div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px; 
+  cursor: pointer; 
+  /* background-color: rgb(221, 218, 218); */
+  /* background: transparent; */
+  border-radius: 100%;
+  min-width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin-bottom: 50px;
+  
+}
+
+.disable{
+  background-color: #dddada;
+}
+.active{
+  background-color: #7950f2;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.buttons button{
+  border-style: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+  color: white;
+  cursor: pointer;
+}
+.active-btn{
+  background-color: #7950f2;
+
+}
+.stop{
+  background-color: #916cff;
+
+}
